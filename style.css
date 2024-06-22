@@ -1,0 +1,322 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+/* Navbar Styles */
+.navbar-nav {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.navbar-nav .nav-item {
+    margin-left: 10px; /* Add some spacing between items */
+}
+
+.navbar-nav .nav-item .nav-link {
+    display: inline-block;
+    padding: 10px 15px;
+    color: #000; /* Adjust color as needed */
+    text-decoration: none;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #007bff; /* Adjust hover color as needed */
+}
+
+/* Ensure the navbar brand is properly aligned */
+.navbar-brand {
+    padding: 10px 15px;
+    color: #000; /* Adjust color as needed */
+    text-decoration: none;
+}
+
+.navbar-brand:hover {
+    color: #007bff; /* Adjust hover color as needed */
+}
+
+/* Style for the navbar toggler (hamburger icon) */
+.navbar-toggler {
+    border: none;
+    background: none;
+    padding: 5px;
+}
+
+.navbar-toggler span {
+    display: block;
+    width: 25px;
+    height: 2px;
+    background-color: #000; /* Adjust color as needed */
+    margin: 4px 0;
+}
+
+#home {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#home .overlay-itro {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#home .intro-content {
+    height: 100%;
+    display: table;
+    width: 100%;
+}
+
+#home .intro-content .table-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#home .intro-title {
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+#home .intro-subtitle {
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+#home .intro-subtitle .text-slider {
+    font-weight: bold;
+}
+
+/* About Section */
+#About {
+    padding: 60px 0;
+}
+
+#About .title-box {
+    margin-bottom: 40px;
+}
+
+#About .title-box .title-a {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+#About .service-box {
+    text-align: center;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    transition: all 0.3s ease-in-out;
+}
+
+#About .service-box:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+#About .service-ico {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#About .service-ico .ico-circle {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background: #007bff;
+    color: #fff;
+    border-radius: 50%;
+}
+
+#About .s-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+#About .s-description {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Education Section */
+#education {
+    padding: 60px 0;
+}
+
+#education .title-box {
+    margin-bottom: 40px;
+}
+
+#education .title-box .title-a {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.cd-timeline__container {
+    position: relative;
+    padding: 2em 0;
+}
+
+.cd-timeline__block {
+    position: relative;
+    margin-bottom: 2em;
+}
+
+.cd-timeline__img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    font-size: 1.2rem;
+    z-index: 10;
+}
+
+.cd-timeline__content {
+    position: relative;
+    margin-left: 60px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Skills Section */
+#skills {
+    padding: 60px 0;
+}
+
+#skills .title-box {
+    margin-bottom: 40px;
+}
+
+#skills .title-box .title-a {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+#skills .service-box {
+    text-align: center;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    transition: all 0.3s ease-in-out;
+}
+
+#skills .service-box:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+#skills .service-ico {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#skills .service-ico .ico-circle {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background: #007bff;
+    color: #fff;
+    border-radius: 50%;
+}
+
+#skills .s-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+#skills .s-description {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Contact Section */
+#contact {
+    padding: 60px 0;
+    text-align:center;
+}
+
+#contact .more-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#contact .more-info .lead {
+    font-size: 1.5rem;
+    font-weight: 700;
+    
+}
+
+#contact .list-ico {
+    list-style: none;
+    padding-left:50;
+}
+
+#contact .list-ico li {
+    margin-bottom: 10px;
+    
+}
+
+#contact .list-ico li span {
+    margin-right: 10px;
+    color: #007bff;
+}
+
+#contact .socials {
+    text-align: center;
+}
+
+#contact .socials ul {
+    list-style: none;
+    padding: 0;
+    display: inline-flex;
+    
+}
+
+#contact .socials ul li {
+    margin: 0 10px;
+    
+
+}
+
+#contact .socials ul li a {
+    color: #007bff;
+    font-size: 1.5rem;
+    
+}
+
+#contact .socials ul li a:hover {
+    color: #0056b3;
+    
+}
